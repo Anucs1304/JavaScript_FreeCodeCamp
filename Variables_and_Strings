@@ -1,0 +1,29 @@
+What is JavaScript, and how does it work with HTML and CSS?
+ - HTML provides structure, CSS adds styling, and JavaScript enables functional behavior, creating a complete and interactive web experience.
+ - JavaScript interacts with the page to change content and styles dynamically.
+
+What is a Data Type and what are the different data types
+ - Data types help the program understand the kind of data it's working with, whether it's a number, text, of something else.
+ - Number, string, boolean, undefined, null, object, symbols and BigInt.
+
+What are the variables, and what are the rules for naming JavaScript variables?
+ - Variables act as containers for storing data that you can access and modify throughout your program.
+ - Variable names should describe what the data represents. Must begin with a letter, an underscore, or a dollar sign. They cannot start with a number.
+ - Variable names are case-sensitive and cannot use reserved keywords.
+
+How do let and const works?
+ - let keyword allows you to declare variables that can be updated or reassigned later. It's a flexible container.
+ - Const is used to declare variables that are constant. Variable declared with const cannot be reassigned.
+
+String concatenation
+ - We can combine strings using +, +=, concat() method.
+
+Role of semicolons
+ - A semicolon is used to indicate the end of a statement or instructions, helping the compiler or interpreter parse the code correctly.
+ - Improve code readability and help avoid errors related to Automatic Semicolon Insertion.
+
+Comments
+ - Comments are used to provide additional context for the code or leave notes for yourself and others.
+ - Comments are lines or blocks of text that are ignored by the JavaScript engine when code is executed.
+ - Other developers working on the projext will understand the purpose of this code.
+ - It helps prevent unnecessary changes or deletions without consulting the team, which could lead to bugs or issues.
