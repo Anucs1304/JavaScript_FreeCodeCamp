@@ -1,0 +1,30 @@
+console.log("Hello! I'm your coding fun fact guide!");
+
+let botName = "Mocha";
+let botLocation = "The World";
+let favoriteLanguage ="JavaScript";
+
+console.log("My name is " + botName + " and I live in " + botLocation + ".");
+
+
+let sentence = "My favorite programming language is " + favoriteLanguage + ".";
+console.log(sentence);
+
+let codingFact = favoriteLanguage + " can make web pages interactive.";
+console.log(codingFact);
+
+codingFact = "The original name for the " +favoriteLanguage + "was Mocha, then briefly LiveScript. It was renamed JavaScript as a marketing strategy to capitalize on the popularity of the Java programming language at the time, despite the two being entirely different languages .";
+console.log(codingFact);
+
+codingFact = "The creator of " +favoriteLanguage +", developed the first version of the language in only 10 days in May 1995";
+console.log(codingFact);
+
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " +botLocation +".");
+
+Hello! I'm your coding fun fact guide!
+My name is Mocha and I live in The World.
+My favorite programming language is JavaScript.
+JavaScript can make web pages interactive.
+The original name for the JavaScriptwas Mocha, then briefly LiveScript. It was renamed JavaScript as a marketing strategy to capitalize on the popularity of the Java programming language at the time, despite the two being entirely different languages .
+The creator of JavaScript, developed the first version of the language in only 10 days in May 1995
+It was fun sharing these facts with you. Goodbye! - Mocha from The World.
