@@ -35,5 +35,21 @@ Dynamic vs Statical Typing
 Type of Operator Work and type of null bug
  - Values like null were represented as a special type of object, leading to this unexpected result.
 
+Bracket Notation and access characters from a string
+ - To access specific characters in a string, such as extracting initials from a name or checking a specific letter for validation. We can access with the help of index.
 
+Newline in strings and escape strings
+ - The \n escape sequence tells JavaScript to insert a line break at a point, which results in the string being displayed across multiple lines.
+ - The backslash tells JavaScript to treat the quotes as literal characters, so they appear correctlu in the output.
+ - Escaping and creating newlines are essential when you’re formatting output or handling special characters in strings. These techniques help you prevent errors and ensure your text appears exactly as intended.
 
+Template Literals and String Interpolation
+ - Template literals are particularly useful when you need to include variables or expressions in strings, format complex strings, or work with multiline text. They are more concise and readable compared to traditional string concatenation.
+
+Position of a substring in a string
+ - The indexOf() is a case sensitive method allows to search for a substring within a string.
+ - Using indexOf() can be very useful when you need to check if a substring is present in a string and to determine its position for further operations.
+
+Prompt () method
+ - It opens a dialog box that asks the user for some input, and then it returns the text entered by the user as a string.
+ - The prompt() method will halt the execution of the script until the user interacts with the dialog box.
