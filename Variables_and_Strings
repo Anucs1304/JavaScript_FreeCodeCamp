@@ -53,3 +53,31 @@ Position of a substring in a string
 Prompt () method
  - It opens a dialog box that asks the user for some input, and then it returns the text entered by the user as a string.
  - The prompt() method will halt the execution of the script until the user interacts with the dialog box.
+
+ASCII, charCodeAt(), fromCharCode()
+ - The ASCII standard covers 128 characters.
+ - The charCodeAt() method returns the UTF-16 code unit of the character at a specified index.
+ - fromCharCode() method allows to convet a UTF-16 code unit into its corresponding character.
+ - Useful when you need to manipulate or compare characters based on their numeric code values.
+
+How can you test if a string contains a substring?
+ - The includes() method is used to check if a string contains a specific substring. If the substring is found within the string, the method returns true otherwise, it returns false.
+ - The includes() method only returns a true or false result. It does not provide information on where the substring is located in the string or how many times it occurs. If you need that level of detail, other methods, such as the indexOf() method might be more suitable.
+
+Extract a substring from a string
+ - The slice() method allows you to extract a portion of a string and returns a new string, without modifying the original string. 
+ - You specify the start and end indexes, and the method returns a new string that contains the extracted portion.
+
+Change the casing for a string
+ - The toUpperCase() method converts all the characters to uppercase letters and returns a new string with all uppercase characters.
+ - The toLowerCase() method converts all characters in a string to lowercase. 
+
+Trim Whitespace
+ - trim(), trimStart(), and trimEnd() methods.
+ - Whether you want to clean up input data or ensure consistent string comparisons, you can use trim() to remove whitespace from both sides of a string, or use trimStart() and trimEnd() to target specific sides.
+
+Replace parts of a string with another
+ - The replace() method in JavaScript allows you to find a specified value (like a word or character) in a string and replace it with another value. The method returns a new string with the replacement and leaves the original unchanged because JavaScript strings are immutable.
+
+Repeat a string a specific number of times.
+ - The repeat() method is a built-in function in JavaScript that allows you to repeat a string a specified number of times.
